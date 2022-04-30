@@ -1,38 +1,82 @@
-.App {
+
+
+.container-land{
+ height: 600px;
+  background-color: #f3a575da;
+  background-size: cover;
+  
+   background-repeat: no-repeat;
+   color: rgb(96, 33, 2);
+   
+}
+button{
+  color: wheat;
+  padding: 12px 15px;
+  border-radius: 10px;
+  font-weight: 600;
+  background-color: #9b450fda;
+  margin: 4px;
+}
+
+.container{
+  justify-self: center;
+  display: inline-flex;
+  margin: 5px;
+  
+}
+.nav {
+  background-color: rgb(96, 33, 2);
+  list-style-type: none;
   text-align: center;
+  margin: 0;
+  padding: 0;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+  
+}
+a{
+  color: aliceblue;
+  list-style: none;
+}
+.grid-container {
+  display: grid;
+  gap: 50px 100px;
+  grid-template-columns: auto auto auto;
+  background-color: #9b450fda;
+  padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.grid-item {
+  background-color: #f3a575da ;
+  border: 1px solid #5d2502da;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  width: 200px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.coffimg{
+  height: 370px;
+  width: 220px;
 }
-
-.App-link {
-  color: #61dafb;
+.card{
+margin: 5px;
+  padding: 2px;
+  border-radius: 10px;
+   
+  width: 300px;
+  background-color: #f3a575da ;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.coffees-con{
+  display: grid;
+  gap: 50px 20px;
+  grid-template-columns: auto auto auto;
+  background-color: #9b450fda;
+  padding: 10px;
+ 
+  
 }
