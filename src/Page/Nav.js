@@ -1,16 +1,19 @@
 import React from 'react';
-
+import { Link } from "react-router-dom";
+import { MdOutlineLocalGroceryStore } from "react-icons/md";
 const Nav = () => {
     return (
         <div>
             <ul class="nav">
-  <li><a href="#home">Home</a></li>
-  <li><a href="#about">About Us</a></li>
-  <li><a href="#clients">Our Clients</a></li>  
-  <li><a href="#contact">Contact Us</a></li>
+  <li><Link to='/' >Home</Link></li>
+  <li><Link to='/aboutus'>About Us</Link></li>
+  <li><Link to='/feature' >Our Services</Link></li>  
+  <li><Link to='/coffees'>Coffee</Link></li>
+  <li className='icon'><MdOutlineLocalGroceryStore/></li>
 </ul>
         </div>
     );
 };
+
 
 export default Nav;

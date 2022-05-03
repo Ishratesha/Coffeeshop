@@ -1,12 +1,37 @@
+.App{
+  box-sizing: border-box;
+}
+.landpic{
 
-
+ 
+ 
+ height: 440px;
+}
+.container{
+text-align: center;
+padding: 30px;
+margin: 15px;
+width: 100%;
+background-image: url('./assets/Does-espresso-or-coffee-have-more-caffeine.jpg');
+background-repeat: no-repeat;
+height: 400px;
+background-size: cover;
+width: 95%;
+}
+.icon{
+  color: aliceblue;
+  
+}
 .container-land{
- height: 600px;
-  background-color: #f3a575da;
+ display: flex;
+ height: 560px;
+  background-color: #fe9e62df;
   background-size: cover;
   
    background-repeat: no-repeat;
    color: rgb(96, 33, 2);
+   font-family: 'Times New Roman', Times, serif;
+   font-size: large;
    
 }
 button{
@@ -30,14 +55,15 @@ button{
   text-align: center;
   margin: 0;
   padding: 0;
+  width: 100%;
   
 }
 
-.nav li {
+.nav  li {
   display: inline-block;
   font-size: 20px;
   padding: 20px;
-  
+  list-style: none;
 }
 a{
   color: aliceblue;
@@ -75,7 +101,7 @@ margin: 5px;
   display: grid;
   gap: 50px 20px;
   grid-template-columns: auto auto auto;
-  background-color: #9b450fda;
+  
   padding: 10px;
  
   
