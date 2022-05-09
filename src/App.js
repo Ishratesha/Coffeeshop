@@ -4,8 +4,12 @@ import { BrowserRouter, Routes,
 import './App.css';
 import Aboutus from './Page/Aboutus';
 import Coffee from './Page/Coffee';
+
 import Landingpage from './Page/Landingpage';
 import Nav from './Page/Nav';
+import Navbar from './Page/Navbar/Navbar';
+
+
 import Thridpart from './Page/Thridpart';
 //import router tags 
 
@@ -13,8 +17,10 @@ import Thridpart from './Page/Thridpart';
 function App() {
   return (
     <div className="App">
+      
       <BrowserRouter>
-      <Nav></Nav>
+      <Navbar/>
+    
       <Routes>
         <Route path='/'element={<Landingpage/>}></Route>
         <Route path='/aboutus'element={<Aboutus/>}></Route>
@@ -24,7 +30,7 @@ function App() {
       </Routes>
       </BrowserRouter>
       
-     
+    
     </div>
   );
 }

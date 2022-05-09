@@ -24,15 +24,19 @@ width: 95%;
 }
 .container-land{
  display: flex;
- height: 560px;
+ height: 100vh;
   background-color: #fe9e62df;
   background-size: cover;
   
    background-repeat: no-repeat;
    color: rgb(96, 33, 2);
-   font-family: 'Times New Roman', Times, serif;
-   font-size: large;
    
+   
+}
+.text-land{
+  font-family: 'Times New Roman', Times, serif;
+   font-size: 14px;
+   padding: 30px 50px;
 }
 button{
   color: wheat;
@@ -49,17 +53,19 @@ button{
   margin: 5px;
   
 }
-.nav {
+.topnav {
   background-color: rgb(96, 33, 2);
   list-style-type: none;
   text-align: center;
   margin: 0;
   padding: 0;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
   
 }
 
-.nav  li {
+.topnav  li {
   display: inline-block;
   font-size: 20px;
   padding: 20px;
@@ -106,3 +112,4 @@ margin: 5px;
  
   
 }
+

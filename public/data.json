@@ -1,65 +1,65 @@
-[
+ [
   {
     "id": 1,
     "name": "Espresso",
     "img": "https://www.chemistryviews.org/wp-content/uploads/legacy/common/images/thumbnails/source/12893073390.jpg",
     "discription": "",
-    "price": "34$"
+    "price": "334"
   },
   {
     "id": 2,
     "name": "Cappucino",
     "img": "http://www.thegrind.cafe/uploads/1/6/2/1/16218138/s721458726271507501_p2_i1_w2000.jpeg",
     "discription": "",
-    "price": "34$"
+    "price": "343"
   },
   {
     "id": 3,
     "name": "Americano",
     "img": "https://cdn.shopify.com/s/files/1/0273/4535/4826/products/americano.jpg?v=1587042329",
     "discription": "Bret",
-    "price": "34$"
+    "price": "134"
   },
   {
     "id": 4,
     "name": "Iced Coffee",
     "img": "https://www.yumofchina.com/wp-content/uploads/2021/08/iced-coffee.jpg",
     "discription": "Bret",
-    "price": "34$"
+    "price": "340"
   },
   {
     "id": 5,
     "name": "Brewed Coffee",
     "img": "https://padibussorah.com/ramadan/wp-content/uploads/2017/04/coffee-600x600.jpg",
     "discription": "Bret",
-    "price": "34$"
+    "price": "349"
   },
   {
     "id": 6,
     "name": "Specialty Coffee",
     "img": "https://media.istockphoto.com/photos/hot-coffee-latte-cappuccino-in-ceramic-cup-isolated-on-white-path-picture-id954923988?s=612x612",
     "discription": "Bret",
-    "price": "34$"
+    "price": "348"
   },
   {
     "id": 7,
     "name": "Flat White",
     "img": "https://www.mcdonalds.com.hk/wp-content/uploads/2020/07/MDS200401_SC_CF_Drink_Hot_500-3.png",
     "discription": "Bret",
-    "price": "34$"
+    "price": "347"
   },
   {
     "id": 8,
     "name": "Latte",
     "img": "https://www.crushpixel.com/big-static12/preview4/cappuccino-tall-glass-isolated-on-888670.jpg",
     "discription": "Bret",
-    "price": "34$"
+    "price": "234"
   },
   {
     "id": 9,
     "name": "Chocolate",
     "img": "https://www.whiskaffair.com/wp-content/uploads/2021/04/Chocolate-Cold-Coffee-2-1.jpg",
     "discription": "Bret",
-    "price": "34$"
+    "price": "343"
   }
 ]
