@@ -13,7 +13,7 @@ const Landingpage = () => {
                          <div className='text-land'>
                     <h1>Good Coffee will always Find the audience </h1>
                     <h3>We provide a variety of uniques and best Coffee</h3>
-                    <button>Shop Now </button>
+                    <button><a href="/coffees">Shop Now </a></button>
                    </div>
                     <div> <img className='landpic'src={ln}></img> </div>
                     </div>
